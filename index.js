@@ -4,11 +4,6 @@ class Driver {
     this.startDate = new Date(dayJoined);
   }
   
-  startDate() {
-    const date = new Date(this.dayJoined);
-    return typeof date;
-  }
-  
   yearsExperienceFromBeginningOf() {
     
   }
