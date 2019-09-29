@@ -27,6 +27,9 @@ class Route {
   
   blocksTravelled() {
     const longitude = Math.abs(beginningLocation.vertical - endingLocation.vertical);
+    console.log(longitude);
+    
+    const latitude = 
   }
   estimatedTime() {
     
