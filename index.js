@@ -32,7 +32,9 @@ class Route {
 
     return longitude + latitude;
   }
-  estimatedTime() {
-    
+  
+  estimatedTime(peakHours) {
+    const blocks = this.blocksTravelled;
+    peakHours ? this.blockTravelled() * 3 : this.blocksTravelled
   }
 }
