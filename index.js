@@ -5,7 +5,7 @@ class Driver {
   }
   
   startDate() {
-    date = new Date(this.dayJoined);
+    const date = new Date(this.dayJoined);
     return date;
   }
   
