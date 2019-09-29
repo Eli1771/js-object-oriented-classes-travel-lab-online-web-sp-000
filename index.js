@@ -5,7 +5,8 @@ class Driver {
   }
   
   startDate() {
-    return new Date(this.dayJoined);
+    date = new Date(this.dayJoined);
+    return date;
   }
   
   yearsExperienceFromBeginningOf() {
