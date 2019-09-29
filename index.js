@@ -35,6 +35,6 @@ class Route {
   
   estimatedTime(peakHours) {
     const blocks = this.blocksTravelled;
-    peakHours ? this.blockTravelled() * 3 : this.blocksTravelled
+    peakHours ? blocks / 3 : blocks / 2; 
   }
 }
