@@ -29,7 +29,10 @@ class Route {
     const longitude = Math.abs(beginningLocation.vertical - endingLocation.vertical);
     console.log(longitude);
     
-    const latitude = 
+    const latitude = Math.abs(eastWest.indexOf(beginningLocation.horizontal) - eastWest.indexOf(endingLocation.horizontal));
+    console.log(latitude);
+    
+    return longitude + latitude;
   }
   estimatedTime() {
     
