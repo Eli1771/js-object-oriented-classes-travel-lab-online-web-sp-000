@@ -26,10 +26,10 @@ class Route {
   }
   
   blocksTravelled() {
-    const longitude = Math.abs(beginningLocation.vertical - endingLocation.vertical);
+    const longitude = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
     console.log(longitude);
     
-    const latitude = Math.abs(eastWest.indexOf(beginningLocation.horizontal) - eastWest.indexOf(endingLocation.horizontal));
+    const latitude = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal));
     console.log(latitude);
     
     return longitude + latitude;
