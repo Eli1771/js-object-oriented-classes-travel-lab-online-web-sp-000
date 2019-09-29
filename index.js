@@ -6,7 +6,7 @@ class Driver {
   
   startDate() {
     const date = new Date(this.dayJoined);
-    return date;
+    return typeof date;
   }
   
   yearsExperienceFromBeginningOf() {
